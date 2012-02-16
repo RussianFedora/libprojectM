@@ -5,7 +5,7 @@ Summary:	The libraries for the projectM music visualization plugin
 Group:		Applications/Multimedia
 License:	LGPLv2+
 URL:		http://projectm.sourceforge.net/
-Source0:	http://downloads.sourceforge.net/projectm/%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}.tar.gz
 #Remove fonts from package
 #Change default fonts
 Patch0:		libprojectM-fonts.patch
